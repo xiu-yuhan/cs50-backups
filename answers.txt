@@ -1,0 +1,35 @@
+sort1 uses: bubble
+random5000    = .053
+random10000   = .177
+random50000   = 5.373
+reversed5000  = .081
+reversed10000 = .235
+reversed50000 = 4.838
+sorted5000    = .024
+sorted10000   = .054
+sorted50000   = .320
+How do you know?: bubble sorts struggle with reversed arrays
+
+sort2 uses: merge
+random5000    = .018
+random10000   = .049
+random50000   = .310
+reversed5000  = .022
+reversed10000 = .042
+reversed50000 = .360
+sorted5000    = .043
+sorted10000   = .052
+sorted50000   = .283
+How do you know?: Merge sorts work similar to selection short but more efficient
+
+sort3 uses: selection
+random5000    = .043
+random10000   = .123
+random50000   = 2.076
+reversed5000  = .054
+reversed10000 = 0.153
+reversed50000 = 2.343
+sorted5000    = .039
+sorted10000   = .153
+sorted50000   = 2.009
+How do you know?: Selection sort should take similar amounts of time for arrays of the same size regardless of array type.
